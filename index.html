@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic Tac Toe - Akalya vs Vicky 🎮</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Tic-Tac-Toe Game</h1>
+    <p class="subtitle">Made with ❤️ by Akalya</p>
+    <div class="players">❌ Akalya vs ⭕ Vicky</div>
+    <div class="board" id="board">
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+      <div class="cell" onclick="handleClick(this)"></div>
+    </div>
+    <div class="status" id="status">Akalya's Turn ❌</div>
+    <button onclick="resetGame()">🔄 Restart Game</button>
+  </div>
+
+  <footer>
+    <p>Task 03 - SkillCraft Internship #WebDevelopment #SkillCraftTechnology</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
